@@ -44,20 +44,14 @@ cityAi != cityBi
 */
 
 func destCity(paths [][]string) string {
-	targetMap := make(map[string]string, len(paths))
+	pathMap := make(map[string]bool, len(paths))
 	for _, path := range paths {
-		if target, ok := targetMap[path[1]]; ok {
-			targetMap[path[0]] = target
-		} else {
-			targetMap[path[0]] = path[1]
+		pathMap[path[0]] = true
+	}
+	for _, path := range paths {
+		if !pathMap[path[1]] {
+			return path[1]
 		}
 	}
-	t := paths[0][1]
-	for {
-		if tar, ok := targetMap[t]; !ok {
-			return t
-		} else {
-			t = tar
-		}
-	}
+	return ""
 }
