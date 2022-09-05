@@ -1,4 +1,6 @@
 package main
+
+import . "leetcode_go/common"
 //给定一个二叉树的
 // root ，返回 最长的路径的长度 ，这个路径中的 每个节点具有相同值 。 这条路径可以经过也可以不经过根节点。 
 //

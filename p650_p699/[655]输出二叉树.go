@@ -2,6 +2,8 @@ package main
 
 import (
 	"strconv"
+
+	. "leetcode_go/common"
 )
 
 //给你一棵二叉树的根节点 root ，请你构造一个下标从 0 开始、大小为 m x n 的字符串矩阵 res ，用以表示树的 格式化布局 。构造此格式化布局矩
@@ -53,12 +55,6 @@ import (
 // 
 //
 // Related Topics 树 深度优先搜索 广度优先搜索 二叉树 👍 178 👎 0
-
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
 
 //leetcode submit region begin(Prohibit modification and deletion)
 /**
