@@ -1,4 +1,4 @@
-package p250_p299
+package main
 
 /*
 请你在设计一个迭代器，在集成现有迭代器拥有的hasNext 和 next 操作的基础上，还额外支持 peek 操作。

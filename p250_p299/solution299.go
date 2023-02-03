@@ -1,4 +1,4 @@
-package p250_p299
+package main
 
 import "fmt"
 
