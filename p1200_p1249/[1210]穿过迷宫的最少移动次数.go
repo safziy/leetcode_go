@@ -1,4 +1,4 @@
-package p1200_p1249
+package main
 
 //你还记得那条风靡全球的贪吃蛇吗？
 //

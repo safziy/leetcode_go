@@ -1,4 +1,4 @@
-package p2300_p2349
+package main
 
 //给你字符串 key 和 message ，分别表示一个加密密钥和一段加密消息。解密 message 的步骤如下：
 //

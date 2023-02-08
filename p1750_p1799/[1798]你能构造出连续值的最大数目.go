@@ -1,4 +1,4 @@
-package p1750_p1799
+package main
 
 import "sort"
 

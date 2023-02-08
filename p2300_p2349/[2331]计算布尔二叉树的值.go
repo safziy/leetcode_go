@@ -1,4 +1,4 @@
-package p2300_p2349
+package main
 
 import . "leetcode_go/common"
 
