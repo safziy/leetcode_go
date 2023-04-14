@@ -20,6 +20,8 @@
 
 π[i]=$\max \limits_{k 0 \to i} \lgroup k:s[0...k-1] = s[i-(k-1)...i] \rgroup$
 
+![image][p1]
+
 特别地，规定π[i]=0。
 
 ### 过程[](#过程 "Permanent link")
@@ -881,14 +883,4 @@ t_4 &= t_2^{10} + t_3^{100}
 
 该问题同样可通过构造前缀函数的自动机解决。同之前一样，我们利用先前计算过的结果对每个模式计算其转移然后相应统计答案即可。
 
-## 练习题目[](#练习题目 "Permanent link")
-
-- [UVA 455 "Periodic Strings"](http://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=396)
-- [UVA 11022 "String Factoring"](http://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1963)
-- [UVA 11452 "Dancing the Cheeky-Cheeky"](http://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2447)
-- [UVA 12604 - Caesar Cipher](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=4282)
-- [UVA 12467 - Secret Word](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3911)
-- [UVA 11019 - Matrix Matcher](https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1960)
-- [SPOJ - Pattern Find](http://www.spoj.com/problems/NAJPF/)
-- [Codeforces - Anthem of Berland](http://codeforces.com/contest/808/problem/G)
-- [Codeforces - MUH and Cube Walls](http://codeforces.com/problemset/problem/471/D)
+[p1]:data:image/png;base64,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
